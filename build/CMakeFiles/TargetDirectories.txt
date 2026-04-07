@@ -1,0 +1,3 @@
+/home/obi-wan/Desktop/sai/build/CMakeFiles/sai.dir
+/home/obi-wan/Desktop/sai/build/CMakeFiles/edit_cache.dir
+/home/obi-wan/Desktop/sai/build/CMakeFiles/rebuild_cache.dir
