@@ -3,7 +3,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    sf::RenderWindow window(sf::VideoMode(5120, 3200), "SFML works!");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
     sf::Texture antTexture;
@@ -14,7 +14,7 @@ int main()
         return -1;
     }
     sf::Sprite ant(antTexture);
-    ant.setScale(0.1f, 0.1f);
+    ant.setScale(1.0f, 1.0f);
     ant.setPosition(50.f, 50.f);
 
 
@@ -28,7 +28,7 @@ int main()
                 window.close();
         }
 
-        ant.move(0.1f, 0.f);
+        ant.move(1.0f, 0.0f);
 
         window.clear();
         window.draw(shape);
